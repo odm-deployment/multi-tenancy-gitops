@@ -5,7 +5,7 @@ resources:
 - argocd/namespace-db2.yaml
 - argocd/namespace-cp4ba.yaml
 - argocd/namespace-openldap.yaml
-- argocd/norootsquash.yaml
+#- argocd/norootsquash.yaml
 - argocd/daemonset-sync-global-pullsecret.yaml
 patches:
 - target:
